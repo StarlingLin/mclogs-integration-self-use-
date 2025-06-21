@@ -1,9 +1,9 @@
 package gs.mclo.commands;
 
 public enum Permission {
-    BASE(2, "mclogs"),
-    SHARE_SPECIFIC(2, "mclogs.share"),
-    LIST(2, "mclogs.list"),
+    BASE(0, "mclogs"),
+    SHARE_SPECIFIC(0, "mclogs.share"),
+    LIST(0, "mclogs.list"),
     ;
 
     private final int level;
